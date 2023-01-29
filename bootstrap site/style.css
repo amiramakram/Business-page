@@ -1,0 +1,384 @@
+/* تقنية لاختصار تغيير الالوان  */
+:root{
+    --white-color :#AAAAAA;
+    --white2-color :#ffffff;
+    --primery-color :#0fa89d;
+    --blue-color :#0a58ca;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*=========================================================
+-------------------header----------------------------------
+===========================================================*/
+
+header .contact ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    color: var(--white-color);
+    font-size: .8rem;
+}
+
+header{
+    background-image: url(img/s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.navbar ul li a{
+    color: var(--white2-color);
+}
+.navbar ul li a:hover{
+    color: var(--primery-color);
+}
+
+
+header .body-content{
+    color: var(--white2-color);
+
+}
+header .body-content h2{ 
+   font-size: 1.5rem;
+
+}
+header .body-content h1{ 
+   font-weight: bold;
+
+}
+header .body-content button{ 
+  background-color: var(--primery-color);
+  border-radius: 20px;
+  border-color:var(--primery-color) ;
+  padding: .5rem 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+/*=========================================================
+-------------------request----------------------------------
+===========================================================*/
+
+.request{
+    width: 100%;
+  height: 15vh;
+    background-color: var(--primery-color);
+}
+.request-content{
+    width: 100%;
+    height: 15vh;
+   
+}
+.request-content h1{
+    padding: 2rem 0;
+    color: var(--white2-color);
+}
+.request-content button{
+    background-color: var(--white2-color);
+  border-radius: 20px;
+  border-color:var(--primery-color) ;
+  padding: .5rem 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #111;
+  height: 3rem;
+  margin: 2rem 0;
+   
+}
+/*=========================================================
+-------------------about----------------------------------
+===========================================================*/
+.about .row{
+    flex-direction: row;
+}
+.about,.about col{
+    
+    height: 80vh;
+}
+
+.about img{
+display: block;
+width: 100%;
+min-height: 80vh;
+}
+.about .about-context{
+padding: 4rem;
+}
+.about .about-context h2{
+font-size: 1.6rem;
+}
+.about .about-context h1{
+font-size: 3rem;
+font-weight: bold;
+}
+.about .about-context button{
+    background-color: var(--primery-color);
+      border-radius: 20px;
+      border-color:var(--primery-color) ;
+      padding: .5rem 1.4rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: #111;
+      height: 3rem;
+      margin: 2rem 0;
+      color: var(--white2-color);
+}
+
+/*=========================================================
+-------------------numbers----------------------------------
+===========================================================*/
+.numbers{
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/bgt.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--white2-color);
+
+}
+.numbers .number-box{
+    box-shadow: 4px 4px 8px var(--white-color), -4px -4px 8px var(--white-color);
+    height: 20vh;
+    background-color: var(--white2-color);
+   border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+}
+.numbers .number-box .col-3{
+    text-align: center;
+    padding: 1rem;
+    margin-top: .8rem;
+
+}
+.numbers .number-box .col-3 h1{
+ font-size: 2.5rem;
+ color: var(--primery-color);
+
+}
+.numbers .number-box .col-3 h2{
+ font-size: 1rem;
+ color: #111;
+
+}
+/*=========================================================
+-------------------services----------------------------------
+===========================================================*/
+.services{
+    min-height: 90vh;
+ 
+}
+.services .services-head h1{
+   font-weight: bold;
+   padding-top: 2rem;
+ 
+}
+.services .services-head p{
+   padding: 1rem;
+ 
+}
+
+.services .card-contaner .card{
+    border: none;
+ margin: auto;
+ text-align: center;
+ transition: all .5s ease;
+
+}
+.services .card-contaner .card:hover{
+    box-shadow: 4px 4px 8px var(--white-color), -4px -4px 8px var(--white-color);
+}
+.services .card-contaner .card img{
+margin: auto;
+width: 10rem;
+}
+/*=========================================================
+-------------------get in touch----------------------------------
+===========================================================*/
+.getintouch{
+    height: 50vh;
+    background-image: url(images/s2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    color: var(--white2-color);
+    
+}
+.getintouch div{
+    align-self: center;
+    
+
+}
+.getintouch div h1{
+padding:0 2rem ;
+
+}
+.getintouch div h3{
+font-size: 1rem;
+padding: .5rem;
+}
+.getintouch div button{
+    background-color: var(--white2-color);
+    border-radius: 20px;
+    border-color:var(--primery-color) ;
+    padding: .5rem 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #111;
+    height: 3rem;
+    margin: 2rem 0;
+}
+
+/*=========================================================
+-------------------get in touch----------------------------------
+===========================================================*/
+.our-work{
+    min-height:100vh;
+}
+.our-work .buttons button{
+   border-color:var(--white-color);
+   padding: .5rem 1rem;
+   
+}
+.our-work .buttons button:first-child{
+   background-color: var(--primery-color);
+   
+}
+
+.our-work .row .card{
+background-color: #f5f5f5;
+border: none;
+}
+
+
+/*=========================================================
+-------------------our-team----------------------------------
+===========================================================*/
+.our-team{
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+@media  screen and (max-width: 900px){
+ 
+	header ul{
+   
+        flex-direction: row;
+     }
+    
+/*=========================================================
+-------------------request----------------------------------
+===========================================================*/
+
+.request{
+ 
+  height: 10vh;
+  
+}
+.request-content{
+    height: 10vh;
+   
+}
+.request-content h1{
+    font-size: 1rem;
+}
+.request-content button{
+   
+  border-radius: 20px;
+  padding: .1rem 1rem;
+  height: 3rem;
+  margin: 1rem 0;
+   
+}
+/*=========================================================
+-------------------about----------------------------------
+===========================================================*/
+.about .row{
+    flex-direction: column;
+}
+.about,.about col{
+    min-height: 80vh;
+}
+ .about-context{
+    width: 100%;
+    }
+.about img{
+display: none;
+}
+
+/*=========================================================
+-------------------numbers----------------------------------
+===========================================================*/
+
+.numbers{
+   
+    min-height: 50vh;
+
+}
+/*=========================================================
+-------------------services----------------------------------
+===========================================================*/
+
+
+
+
+.services .card-contaner {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+
+}
+.services .card-contaner .card:hover{
+    box-shadow: 4px 4px 8px var(--white-color), -4px -4px 8px var(--white-color);
+}
+.services .card-contaner .card img{
+margin: auto;
+width: 10rem;
+}
+
+/*=========================================================
+-------------------get in touch----------------------------------
+===========================================================*/
+.our-work .c-conten{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+/*=========================================================
+-------------------our-team----------------------------------
+===========================================================*/
+.our-team .c-card-contaner{
+    flex-direction: column;
+    align-items: center;
+    
+}
+/*=========================================================
+-------------------Footer----------------------------------
+===========================================================*/
+footer .footer-logo{
+    width: 10rem;
+}
+
+}
